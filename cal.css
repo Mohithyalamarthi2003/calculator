@@ -1,0 +1,27 @@
+#tab
+{
+    border:1px double black;
+    height:220px;
+    width:180px;
+    padding:10px;
+    margin-left:200px;
+    margin-top:20px;
+    border-radius:4px;
+    background-color:brown;
+}
+button{
+    padding:5px;
+    border-radius:5px;
+    width:35px;
+}
+body{
+    background-color:aliceblue;
+}
+
+header{
+    font-size:30px;
+    color:tomato;
+    text-decoration: underline;
+    padding-top:10px;
+
+}

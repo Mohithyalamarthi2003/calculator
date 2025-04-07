@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link type="text/css" rel="stylesheet" href="cal.css"/>
+        <script src="cal.js"></script>
+    </head>
+    <body>
+        <!calculator design>
+        <div id="div">
+            <header><marquee>Calculator</marquee></header>
+        <table id="tab">
+            <tr>
+            <td colspan="3"><input type="text" id="t"/></td>
+             <td><button onclick="allclear()">AC</button></td>
+            </tr>
+            <tr>
+     <td><button id="one"onclick="display(1)">1</button></td>
+                <td><button id="two"onclick="display(2)">2</button></td>
+                <td><button id="three" onclick="display(3)">3</button></td>
+                <td><button id="plus" onclick="display('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button id="four" onclick="display(4)">4</button></td>
+                           <td id="five"><button onclick="display(5)">5</button></td>
+                           <td id="six"><button onclick="display(6)">6</button></td>
+                           <td id="minus"><button onclick="display('-')">-</button></td>
+                       </tr>
+                       <tr>
+                        <td><button id="seven" onclick="display(7)">7</button></td>
+                                   <td id="eight"><button onclick="display(8)">8</button></td>
+                                   <td><button id="nine" onclick="display(9)">9</button></td>
+                                   <td><button id="mul" onclick="display('*')">*</button></td>
+                               </tr>
+                               <tr>
+                                <td><button id="div" onclick="display('/')">/</button></td>
+                                           <td><button id="zero" onclick="display(0)">0</button></td>
+                                           <td><button id="mod" onclick="display('%')">%</button></td>
+                                           <td><button id="equal" onclick="calculate()">=</button></td>
+                                       </tr>
+
+
+
+
+
+
+        </table>
+        </div>
+    </body>
+</html>
