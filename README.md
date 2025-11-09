@@ -1,0 +1,1 @@
+This web calculator is desinged using modern web programming languages like HTML, CSS, JAVASCRIPT. With the use of this calculator we can able to perform all the arthimetic operations like additon, subtraction, multiplication and division
